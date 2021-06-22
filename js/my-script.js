@@ -109,18 +109,16 @@ icons.forEach((element) => {
     iconsHTML.innerHTML += 
     `<div class="icon-type col">
 	<div class="inner-icon">
-	<div class ="icon ${type}">	
+
+	<div class = "icon ${type}" >	
 	<i class="${family} ${prefix}${name}"></i>
 	</div>
+
 	<div class ="icon-text" >${name}</div>
 	</div>
 	</div>`
 })
 
-/* 
-Milestone 2
-Coloriamo icone per tipo
-*/
 
 
 
