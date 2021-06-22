@@ -1,0 +1,34 @@
+.icons-container{
+    background-color: #DDDDDD;
+}
+
+.icon-type{
+    flex-basis: calc(100% / 5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.inner-icon{
+    display: flex;
+    background-color: brown;
+    padding: 15px;
+    height: 150px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    align-content: center ;
+    background-color: #F5F5F5F5;
+    flex-wrap: wrap;
+}
+
+.inner-icon i{
+    width: 100%;
+    font-size: 50px;
+}
+
+.icon-text{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
