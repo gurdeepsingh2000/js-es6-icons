@@ -10,7 +10,6 @@
 
 .inner-icon{
     display: flex;
-    background-color: brown;
     padding: 15px;
     height: 150px;
     border-radius: 5px;
@@ -31,4 +30,8 @@
     text-align: center;
     width: 100%;
     text-transform: uppercase;
+}
+
+.icon.animal{
+    color:blue
 }
