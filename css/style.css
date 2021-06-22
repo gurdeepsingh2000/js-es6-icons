@@ -9,20 +9,16 @@
 }
 
 .inner-icon{
-    display: flex;
-    padding: 15px;
+    padding: 35px;
     height: 150px;
     border-radius: 5px;
-    align-items: center;
-    text-align: center;
-    align-content: center ;
     background-color: #F5F5F5F5;
-    flex-wrap: wrap;
 }
 
 .inner-icon i{
     width: 100%;
-    font-size: 50px;
+    font-size: 50px;    
+    text-align: center;
 }
 
 .icon-text{
@@ -31,6 +27,8 @@
     width: 100%;
     text-transform: uppercase;
 }
+
+
 .icon.vegetable{
     color:#FFA500
 }
@@ -42,4 +40,18 @@
 
 .icon.user{
     color:purple
+}
+
+
+.selector{
+    display: flex;
+    background-color: #29B1DD;
+    height: 120px;
+    width: 100%;
+}
+
+#list{
+    width: 100px;
+    height: 60px;
+    text-align: center;
 }

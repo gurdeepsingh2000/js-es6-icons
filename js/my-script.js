@@ -119,6 +119,29 @@ icons.forEach((element) => {
 	</div>`
 })
 
+const NewArrObj = icons.map((element) => element) 
+console.log(NewArrObj)
+
+
+
+function filterIcons(User_request , original_list) {
+	if (choice === 'all')  {
+		return true
+	}
+
+	if (choice === icons.type){
+		return true 
+	}
+
+	return false
+}
+
+
+
+
+
+
+
 
 
 
